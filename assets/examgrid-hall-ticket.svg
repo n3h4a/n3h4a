@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="350" viewBox="0 0 840 350" role="img" aria-labelledby="t d">
+  <title id="t">ExamGrid hall ticket</title>
+  <desc id="d">ExamGrid plans exams for 6,500 students and 65,000 enrolments in 181 ms: timetable by graph colouring, rooms by min-cost max-flow, seats by constraint solving, invigilators by min-heap. If no timetable exists, the solver proves why.</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .serif{ font-family: Georgia, "Times New Roman", serif; }
+    .lbl  { fill: #8a7a55; font-size: 10.5px; letter-spacing: 1.3px; font-weight: 700; }
+    .val  { fill: #1f2a44; font-size: 14.5px; font-weight: 600; }
+    .ins  { fill: #4a4436; font-size: 12.5px; }
+  </style>
+  <defs>
+    <mask id="perf">
+      <rect width="840" height="350" fill="#fff"/>
+      <circle cx="1" cy="40" r="9" fill="#000"/><circle cx="1" cy="90" r="9" fill="#000"/><circle cx="1" cy="140" r="9" fill="#000"/>
+      <circle cx="1" cy="190" r="9" fill="#000"/><circle cx="1" cy="240" r="9" fill="#000"/><circle cx="1" cy="290" r="9" fill="#000"/>
+      <circle cx="839" cy="40" r="9" fill="#000"/><circle cx="839" cy="90" r="9" fill="#000"/><circle cx="839" cy="140" r="9" fill="#000"/>
+      <circle cx="839" cy="190" r="9" fill="#000"/><circle cx="839" cy="240" r="9" fill="#000"/><circle cx="839" cy="290" r="9" fill="#000"/>
+    </mask>
+    <pattern id="guil" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M0 7 Q3.5 0 7 7 T14 7" fill="none" stroke="#efe2c2" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <g mask="url(#perf)">
+    <rect x="0" y="0" width="840" height="350" rx="12" fill="#fff7e6"/>
+    <rect x="0" y="0" width="840" height="350" rx="12" fill="url(#guil)" opacity="0.6"/>
+    <rect x="14" y="14" width="812" height="322" rx="8" fill="none" stroke="#d6c59b" stroke-width="1.5" stroke-dasharray="6 4"/>
+  </g>
+
+  <g class="sans">
+    <text x="40" y="52" fill="#1e3a8a" font-size="20" font-weight="800" letter-spacing="3">HALL TICKET</text>
+    <text x="40" y="72" fill="#8a7a55" font-size="12" letter-spacing="0.5">End-semester examination in systems design  ·  github.com/n3h4a/ExamGrid</text>
+    <line x1="40" y1="86" x2="640" y2="86" stroke="#d6c59b"/>
+
+    <text x="40" y="110" class="lbl">ROLL NO.</text>
+    <text x="40" y="128" class="val mono">N3H4A</text>
+    <text x="250" y="110" class="lbl">CANDIDATE</text>
+    <text x="250" y="128" class="val">Neha Karamchandani</text>
+    <text x="460" y="110" class="lbl">PAPER</text>
+    <text x="460" y="128" class="val">ExamGrid</text>
+
+    <text x="40" y="160" class="lbl">CANDIDATES SCHEDULED</text>
+    <text x="40" y="178" class="val">6,500 students · 65,000 enrolments</text>
+    <text x="460" y="160" class="lbl">TIME TAKEN</text>
+    <text x="460" y="178" class="val mono" fill="#b91c1c">181 ms</text>
+
+    <text x="40" y="210" class="lbl">EXAMINATION HALL</text>
+    <text x="40" y="228" class="val">Java 21 solver · Spring Boot 4 · PostgreSQL · Redis</text>
+
+    <line x1="40" y1="246" x2="640" y2="246" stroke="#d6c59b"/>
+    <text x="40" y="266" class="lbl">INSTRUCTIONS TO CANDIDATES</text>
+    <text x="40" y="286" class="ins">1. No student sits two papers in one slot. DSatur colouring, TabuCol repair, simulated annealing.</text>
+    <text x="40" y="304" class="ins">2. Rooms by min-cost max-flow; seats by CSP, so no two neighbours ever share a paper.</text>
+    <text x="40" y="322" class="ins">3. If no valid timetable exists, the solver proves why and names the roll numbers.</text>
+
+    <!-- photo box -->
+    <rect x="672" y="40" width="128" height="150" rx="6" fill="#fffdf6" stroke="#d6c59b"/>
+    <g fill="#1e3a8a">
+      <rect x="704" y="62" width="16" height="16"/><rect x="752" y="62" width="16" height="16"/>
+      <rect x="720" y="78" width="32" height="16" fill="#ff8fab"/>
+      <rect x="688" y="94" width="16" height="16"/><rect x="736" y="94" width="0" height="16"/><rect x="768" y="94" width="16" height="16"/>
+      <rect x="704" y="110" width="64" height="16"/>
+      <rect x="704" y="126" width="16" height="16" fill="#7ee8c7"/><rect x="752" y="126" width="16" height="16" fill="#7ee8c7"/>
+      <rect x="720" y="142" width="32" height="16"/>
+    </g>
+    <text x="736" y="180" text-anchor="middle" class="lbl">PHOTO</text>
+    <text x="736" y="226" text-anchor="middle" class="serif" fill="#1e3a8a" font-size="24" font-style="italic">neha</text>
+    <line x1="682" y1="234" x2="790" y2="234" stroke="#8a7a55"/>
+    <text x="736" y="248" text-anchor="middle" class="lbl">SIGNATURE</text>
+  </g>
+
+  <g transform="rotate(-14 738 300)" opacity="0.88">
+    <rect x="668" y="274" width="140" height="50" rx="8" fill="none" stroke="#b91c1c" stroke-width="3"/>
+    <text x="738" y="308" text-anchor="middle" class="mono" fill="#b91c1c" font-size="24" font-weight="800" letter-spacing="4">SOLVED</text>
+  </g>
+</svg>

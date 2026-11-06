@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="366" viewBox="0 0 840 366" role="img" aria-labelledby="t d">
+  <title id="t">Medfold laboratory report</title>
+  <desc id="d">Medfold v1.1.0 results: 479 automated tests passing, 93 to 97 percent line coverage, p95 read latency under 12 ms, 25 of 25 routes held when attacked as another user, 11 architecture decision records.</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .lbl  { fill: #7c7768; font-size: 11px; letter-spacing: 1.2px; font-weight: 600; }
+    .val  { fill: #2b2a26; font-size: 14px; }
+    .th   { fill: #0f766e; font-size: 11px; letter-spacing: 1.4px; font-weight: 700; }
+    .td   { fill: #2b2a26; font-size: 14px; }
+    .res  { fill: #111; font-size: 14px; font-weight: 700; }
+    .ref  { fill: #7c7768; font-size: 13px; }
+    .ok   { fill: #0f766e; font-size: 11px; font-weight: 700; letter-spacing: 1px; }
+  </style>
+  <rect x="1" y="1" width="838" height="364" rx="14" fill="#fbfaf6" stroke="#e3dfd3" stroke-width="2"/>
+  <path d="M1 15 a14 14 0 0 1 14 -14 h810 a14 14 0 0 1 14 14 v43 h-838 z" fill="#0f766e"/>
+  <g class="sans">
+    <path d="M30 22 h8 v-8 h8 v8 h8 v8 h-8 v8 h-8 v-8 h-8 z" fill="#ffffff"/>
+    <text x="66" y="37" fill="#ffffff" font-size="17" font-weight="700" letter-spacing="2.5">MEDFOLD  LABORATORY REPORT</text>
+    <text x="810" y="36" text-anchor="end" fill="#cdeee9" font-size="12" class="mono">specimen: github.com/n3h4a/medfold</text>
+
+    <text x="30" y="86" class="lbl">PATIENT</text>
+    <text x="30" y="104" class="val">Neha's side project, v1.1.0</text>
+    <text x="300" y="86" class="lbl">SAMPLE</text>
+    <text x="300" y="104" class="val">React · Spring Boot · FastAPI · PostgreSQL</text>
+    <text x="650" y="86" class="lbl">STATUS</text>
+    <text x="650" y="104" class="val" font-weight="700" fill="#0f766e">FINAL · CI green</text>
+
+    <line x1="30" y1="124" x2="810" y2="124" stroke="#d9d4c6"/>
+    <text x="30" y="144" class="th">TEST</text>
+    <text x="330" y="144" class="th">RESULT</text>
+    <text x="510" y="144" class="th">REFERENCE RANGE</text>
+    <text x="700" y="144" class="th">FLAG</text>
+    <line x1="30" y1="154" x2="810" y2="154" stroke="#d9d4c6"/>
+
+    <text x="30" y="178" class="td">Automated tests</text>
+    <text x="330" y="178" class="res mono">479 passing</text>
+    <text x="510" y="178" class="ref">0 failing</text>
+    <rect x="700" y="165" width="84" height="18" rx="9" fill="#d7f2ee"/><text x="742" y="178" text-anchor="middle" class="ok">IN RANGE</text>
+
+    <rect x="30" y="188" width="780" height="28" fill="#f3f1ea"/>
+    <text x="30" y="207" class="td" dx="0">Line coverage</text>
+    <text x="330" y="207" class="res mono">93–97 %</text>
+    <text x="510" y="207" class="ref">80–100 %</text>
+    <rect x="700" y="194" width="84" height="18" rx="9" fill="#d7f2ee"/><text x="742" y="207" text-anchor="middle" class="ok">IN RANGE</text>
+
+    <text x="30" y="236" class="td">p95 read latency</text>
+    <text x="330" y="236" class="res mono">&lt; 12 ms</text>
+    <text x="510" y="236" class="ref">&lt; 200 ms</text>
+    <rect x="700" y="223" width="84" height="18" rx="9" fill="#d7f2ee"/><text x="742" y="236" text-anchor="middle" class="ok">IN RANGE</text>
+
+    <rect x="30" y="246" width="780" height="28" fill="#f3f1ea"/>
+    <text x="30" y="265" class="td">Routes attacked as another user</text>
+    <text x="330" y="265" class="res mono">25 / 25 held</text>
+    <text x="510" y="265" class="ref">25 / 25</text>
+    <rect x="700" y="252" width="84" height="18" rx="9" fill="#d7f2ee"/><text x="742" y="265" text-anchor="middle" class="ok">IN RANGE</text>
+
+    <text x="30" y="294" class="td">Architecture decision records</text>
+    <text x="330" y="294" class="res mono">11 ADRs</text>
+    <text x="510" y="294" class="ref">≥ 1 per big decision</text>
+    <rect x="700" y="281" width="84" height="18" rx="9" fill="#d7f2ee"/><text x="742" y="294" text-anchor="middle" class="ok">IN RANGE</text>
+
+    <line x1="30" y1="306" x2="810" y2="306" stroke="#d9d4c6"/>
+    <text x="30" y="344" fill="#7c7768" font-size="12.5" font-style="italic">Interpretation: none. Medfold describes, never diagnoses, so this report won't either.</text>
+  </g>
+  <g transform="rotate(-7 712 334)">
+    <rect x="619" y="317" width="186" height="34" rx="6" fill="none" stroke="#c2410c" stroke-width="2.5" opacity="0.85"/>
+    <text x="712" y="332" text-anchor="middle" class="mono" fill="#c2410c" font-size="11" font-weight="700" letter-spacing="1.5" opacity="0.9">VERIFIED BY</text>
+    <text x="712" y="345" text-anchor="middle" class="mono" fill="#c2410c" font-size="11" font-weight="700" opacity="0.9">verify-claims.sh</text>
+  </g>
+</svg>
