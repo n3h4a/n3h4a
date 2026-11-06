@@ -210,7 +210,7 @@ def render(s: dict) -> str:
         a('    <text x="62" y="362" class="lbl">nothing public yet. check back soon</text>\n')
 
     a(f'''
-    <text x="32" y="474" class="mono" font-size="11" fill="#6f6890">{s["public_repos"]} public repos · ★ {s["stars"]} · rebuilt nightly by GitHub Actions</text>
+    <text x="32" y="474" class="mono" font-size="11" fill="#6f6890">{s["public_repos"]} public repos · rebuilt nightly by GitHub Actions</text>
   </g>
 </svg>
 ''')
