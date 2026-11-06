@@ -7,8 +7,6 @@
   <a href="https://drive.google.com/file/d/1Wn0S8QGpAZx_U4xaSKsXx1PFyGHzvjZd/view?usp=drive_link"><img src="https://img.shields.io/badge/Resume-FF8FAB?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"></a>
   <a href="https://medium.com/@nehakaramchandanii"><img src="https://img.shields.io/badge/Medium-14121F?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nehakaramchandani2005@gmail.com"><img src="https://img.shields.io/badge/Email-7EE8C7?style=for-the-badge&logo=gmail&logoColor=14121F" alt="Email"></a>
-  <br>
-  <sub>📬 <code>nehakaramchandani2005@gmail.com</code></sub>
 </p>
 
 ## hi, i'm neha 👋
@@ -16,6 +14,8 @@
 I'm a 3rd-year IT undergrad, graduating in 2028. I pick projects that force me into the parts tutorials skip: data that has to stay private, inputs that arrive messy, work too slow for a web request, and an AI that will sometimes be wrong.
 
 So far that's meant a medical-records app that reads lab reports without ever interpreting them, an exam scheduler that plans a whole university's exams in under 200 ms, and a data pipeline that tests its own numbers. Every project comes with its decision records, its bug log, and a way to re-measure each claim it makes.
+
+Off the clock I'm reading, [writing on Medium](https://medium.com/@nehakaramchandanii), or coding with music on loop. That's probably why one of my projects turned into a study of what makes a hit song last.
 
 **Looking for:** data engineering, backend and software engineering roles and internships.
 
@@ -69,46 +69,10 @@ So far that's meant a medical-records app that reads lab reports without ever in
 
 ---
 
-## 🛠️ on my workbench
-
-<img src="assets/workbench-pipeline.svg" width="100%" alt="Build pipeline: ExamGrid 7 of 10 milestones done, React console in progress; Medfold v1.1.0 shipped, two-factor login, doctor share links and FHIR export queued">
-
-<details>
-<summary><b>🧠 things i'll happily whiteboard for an hour</b></summary>
-<br>
-
-- **Postgres doing three jobs.** Queue, search and rate limiter in one database, so an upload and its job commit together.
-- **Slow work behind fast APIs.** Return `202`, hand the job to a worker, stream progress, and survive a crash halfway.
-- **Algorithms with real users.** Graph colouring and flows for problems people actually have, like exam clashes.
-- **LLM guardrails built in.** Give the model nowhere to put the unsafe answer instead of asking it nicely.
-- **Data that can't cheat.** Point-in-time features, star schemas, and tests that check for leakage.
-- **Writing decisions down.** ADRs that record what I rejected and what my choice costs.
-
-</details>
-
-<details>
-<summary><b>📚 reading queue (and the project that needs it)</b></summary>
-<br>
-
-| learning | because |
-|---|---|
-| HL7 FHIR | so Medfold can export records a hospital can import |
-| Load testing | to prove ExamGrid survives every student refreshing at once on result day |
-| Vision models for documents | to send only the hard-to-read scans to a vision model and keep the rest traceable |
-| Two-factor auth flows | to add 2FA to Medfold without weakening its token rotation |
-
-</details>
-
----
-
-## 📈 activity
+## 🎧 my year on github, wrapped
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=n3h4a&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=14&bg_color=14121f&title_color=ff8fab&icon_color=7ee8c7&text_color=e6e1f5" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=n3h4a&layout=compact&langs_count=6&hide_border=true&border_radius=14&bg_color=14121f&title_color=ff8fab&text_color=e6e1f5" height="165" alt="Top languages">
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=n3h4a&hide_border=true&border_radius=14&background=14121F&ring=FF8FAB&fire=FFD479&currStreakNum=FFFFFF&sideNums=E6E1F5&currStreakLabel=7EE8C7&sideLabels=A59CFF&dates=8B84A8&stroke=2A2540" alt="Contribution streak">
+  <img src="https://raw.githubusercontent.com/n3h4a/n3h4a/output/wrapped.svg" width="100%" alt="Wrapped: contributions, streaks, top languages and most-committed repos over the last 12 months">
 </p>
 <p align="center">
   <picture>
@@ -137,7 +101,6 @@ So far that's meant a medical-records app that reads lab reports without ever in
   <sub>Every number on this page is measured in the repo it links to. The README itself isn't unit-tested… yet.</sub><br><br>
   <a href="https://www.linkedin.com/in/nehakaramchandani/">LinkedIn</a> ·
   <a href="https://drive.google.com/file/d/1Wn0S8QGpAZx_U4xaSKsXx1PFyGHzvjZd/view?usp=drive_link">Resume</a> ·
-  <a href="https://medium.com/@nehakaramchandanii">Medium</a> ·
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nehakaramchandani2005@gmail.com">Email</a><br>
+  <a href="https://medium.com/@nehakaramchandanii">Medium</a><br>
   <sub>class of 2028 · open to data, backend &amp; SWE roles</sub>
 </p>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="840" height="372" viewBox="0 0 840 372" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="840" height="434" viewBox="0 0 840 434" role="img" aria-labelledby="t d">
   <title id="t">neha@n3h4a terminal</title>
-  <desc id="d">Neha Karamchandani, 3rd-year IT undergrad, class of 2028, who builds backends and data pipelines. Looking for data engineering, backend and software engineering roles and internships. Stack: Java, Spring Boot, Python, FastAPI, PostgreSQL, Redis, DuckDB, SQL. Shipped: medfold, examgrid, spotify-charts, sql-warehouse, dsa-in-java.</desc>
+  <desc id="d">Neha Karamchandani, 3rd-year IT undergrad, class of 2028, who builds backends and data pipelines. Looking for data engineering, backend and software engineering roles and internships. Stack: Java, Spring Boot, Python, FastAPI, PostgreSQL, Redis, DuckDB, SQL. Shipped: medfold, examgrid, spotify-charts, sql-warehouse, dsa-in-java. Off the clock: reading, writing on Medium, music on loop.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; white-space: pre; }
     .user { fill: #ff8fab; font-weight: 700; }
@@ -22,10 +22,11 @@
     <clipPath id="c2"><rect x="0" y="128" height="26" width="0"><animate attributeName="width" from="0" to="840" begin="1.7s" dur="0.8s" fill="freeze"/></rect></clipPath>
     <clipPath id="c3"><rect x="0" y="190" height="26" width="0"><animate attributeName="width" from="0" to="840" begin="3.1s" dur="0.7s" fill="freeze"/></rect></clipPath>
     <clipPath id="c4"><rect x="0" y="252" height="26" width="0"><animate attributeName="width" from="0" to="840" begin="4.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="0" y="314" height="26" width="0"><animate attributeName="width" from="0" to="840" begin="5.7s" dur="0.8s" fill="freeze"/></rect></clipPath>
   </defs>
 
   <!-- window -->
-  <rect x="1" y="1" width="838" height="370" rx="16" fill="url(#bg)" stroke="#2a2540" stroke-width="2"/>
+  <rect x="1" y="1" width="838" height="432" rx="16" fill="url(#bg)" stroke="#2a2540" stroke-width="2"/>
   <path d="M1 17 a16 16 0 0 1 16 -16 h806 a16 16 0 0 1 16 16 v25 h-838 z" fill="#1e1a33"/>
   <circle cx="26" cy="22" r="6" fill="#ff6b81"/>
   <circle cx="46" cy="22" r="6" fill="#ffd479"/>
@@ -70,10 +71,18 @@
     <text x="28" y="296" class="mono"><tspan class="dir">medfold/</tspan>   <tspan class="dir">examgrid/</tspan>   <tspan class="dir">spotify-charts/</tspan>   <tspan class="dir">sql-warehouse/</tspan>   <tspan class="dir">dsa-in-java/</tspan></text>
   </g>
 
-  <!-- 5: idle prompt -->
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.2s" fill="freeze"/>
-    <text x="28" y="334" class="mono"><tspan class="user">neha@n3h4a</tspan><tspan class="path">:~$ </tspan><tspan class="dim">scroll down for the good stuff</tspan></text>
-    <rect x="428" y="321" width="9" height="17" fill="#ff8fab">
+  <!-- 5: off the clock -->
+  <g clip-path="url(#c5)">
+    <text x="28" y="332" class="mono"><tspan class="user">neha@n3h4a</tspan><tspan class="path">:~$ </tspan><tspan class="cmd">cat off_the_clock.txt</tspan></text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="6.6s" dur="0.3s" fill="freeze"/>
+    <text x="28" y="358" class="mono out"><tspan fill="#ff8fab">reading</tspan>  ·  <tspan fill="#a59cff">writing on Medium</tspan>  ·  <tspan fill="#7ee8c7">music on loop while I code ♫</tspan></text>
+  </g>
+
+  <!-- 6: idle prompt -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="7.2s" dur="0.2s" fill="freeze"/>
+    <text x="28" y="396" class="mono"><tspan class="user">neha@n3h4a</tspan><tspan class="path">:~$ </tspan><tspan class="dim">scroll down for the good stuff</tspan></text>
+    <rect x="428" y="383" width="9" height="17" fill="#ff8fab">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
