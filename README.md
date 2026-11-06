@@ -6,6 +6,7 @@
   <a href="https://www.linkedin.com/in/nehakaramchandani/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://drive.google.com/file/d/1Wn0S8QGpAZx_U4xaSKsXx1PFyGHzvjZd/view?usp=drive_link"><img src="https://img.shields.io/badge/Resume-FF8FAB?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"></a>
   <a href="https://medium.com/@nehakaramchandanii"><img src="https://img.shields.io/badge/Medium-14121F?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+  <a href="https://leetcode.com/u/n3haaaaaaaaaaa/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=14121F" alt="LeetCode"></a>
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nehakaramchandani2005@gmail.com"><img src="https://img.shields.io/badge/Email-7EE8C7?style=for-the-badge&logo=gmail&logoColor=14121F" alt="Email"></a>
 </p>
 
