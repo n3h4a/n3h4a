@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="840" height="372" viewBox="0 0 840 372" role="img" aria-labelledby="t d">
   <title id="t">neha@n3h4a terminal</title>
-  <desc id="d">Neha Karamchandani, 3rd-year IT undergrad who builds backends and data pipelines. Looking for data engineering, backend and software engineering roles and internships. Stack: Java, Spring Boot, Python, FastAPI, PostgreSQL, Redis, DuckDB, SQL. Shipped: medfold, examgrid, spotify-charts, sql-warehouse, dsa-in-java.</desc>
+  <desc id="d">Neha Karamchandani, 3rd-year IT undergrad, class of 2028, who builds backends and data pipelines. Looking for data engineering, backend and software engineering roles and internships. Stack: Java, Spring Boot, Python, FastAPI, PostgreSQL, Redis, DuckDB, SQL. Shipped: medfold, examgrid, spotify-charts, sql-warehouse, dsa-in-java.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; white-space: pre; }
     .user { fill: #ff8fab; font-weight: 700; }
@@ -43,7 +43,7 @@
     <text x="28" y="84" class="mono"><tspan class="user">neha@n3h4a</tspan><tspan class="path">:~$ </tspan><tspan class="cmd">whoami</tspan></text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.3s" fill="freeze"/>
-    <text x="28" y="110" class="mono out"><tspan class="hi">Neha Karamchandani</tspan> · 3rd-year IT undergrad · builds backends &amp; data pipelines</text>
+    <text x="28" y="110" class="mono out"><tspan class="hi">Neha Karamchandani</tspan> · 3rd-year IT · <tspan class="amber">class of 2028</tspan> · backends &amp; data pipelines</text>
   </g>
 
   <!-- 2: looking for -->

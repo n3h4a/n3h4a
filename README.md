@@ -6,12 +6,14 @@
   <a href="https://www.linkedin.com/in/nehakaramchandani/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://drive.google.com/file/d/1Wn0S8QGpAZx_U4xaSKsXx1PFyGHzvjZd/view?usp=drive_link"><img src="https://img.shields.io/badge/Resume-FF8FAB?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume"></a>
   <a href="https://medium.com/@nehakaramchandanii"><img src="https://img.shields.io/badge/Medium-14121F?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
-  <a href="mailto:nehakaramchandani2005@gmail.com"><img src="https://img.shields.io/badge/Email-7EE8C7?style=for-the-badge&logo=gmail&logoColor=14121F" alt="Email"></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nehakaramchandani2005@gmail.com"><img src="https://img.shields.io/badge/Email-7EE8C7?style=for-the-badge&logo=gmail&logoColor=14121F" alt="Email"></a>
+  <br>
+  <sub>📬 <code>nehakaramchandani2005@gmail.com</code></sub>
 </p>
 
 ## hi, i'm neha 👋
 
-I'm a 3rd-year IT undergrad. I pick projects that force me into the parts tutorials skip: data that has to stay private, inputs that arrive messy, work too slow for a web request, and an AI that will sometimes be wrong.
+I'm a 3rd-year IT undergrad, graduating in 2028. I pick projects that force me into the parts tutorials skip: data that has to stay private, inputs that arrive messy, work too slow for a web request, and an AI that will sometimes be wrong.
 
 So far that's meant a medical-records app that reads lab reports without ever interpreting them, an exam scheduler that plans a whole university's exams in under 200 ms, and a data pipeline that tests its own numbers. Every project comes with its decision records, its bug log, and a way to re-measure each claim it makes.
 
@@ -40,16 +42,16 @@ So far that's meant a medical-records app that reads lab reports without ever in
 **[What Makes a Global Top 50 Hit Last?](https://github.com/n3h4a/spotify-powerbi-dashboard)** takes 18 months of daily charts through a bronze → silver → gold pipeline into a star schema. It answers nine business questions with significance tests, and its model predicts a song's chart life from the first week. A leakage test rebuilds the warehouse with future days added to prove that no feature peeks ahead. There's a [**live dashboard**](https://n3h4a.github.io/spotify-powerbi-dashboard/) too.
 <br><sub>Python · DuckDB · SQL · scikit-learn · statsmodels · Power BI (TMDL, 40 DAX measures) · GitHub Actions</sub>
 
-<details>
-<summary><b>💿 b-sides</b></summary>
-<br>
+### 💿 b-sides
 
-| | |
-|---|---|
-| 🏛️ [**SQL Data Warehouse**](https://github.com/n3h4a/sql-data-warehouse-project) | A medallion warehouse in SQL Server that merges ERP and CRM sources into a star schema. Includes ETL procedures, quality checks, a data catalog and 13 analytics reports. |
-| ☕ [**DSA in Java**](https://github.com/n3h4a/dsa-practise) | 90+ LeetCode solutions sorted by the pattern behind them, not by problem number. Each one states its approach and complexity, and CI compiles all of them on every push. |
+<p align="center">
+  <a href="https://github.com/n3h4a/sql-data-warehouse-project"><img src="assets/warehouse-podium.svg" width="49%" alt="SQL data warehouse: bronze, silver and gold layers drawn as a medal podium"></a>
+  <a href="https://github.com/n3h4a/dsa-practise"><img src="assets/dsa-receipt.svg" width="49%" alt="DSA in Java receipt: 90 problems across 13 patterns"></a>
+</p>
 
-</details>
+**[SQL Data Warehouse](https://github.com/n3h4a/sql-data-warehouse-project)**: ERP and CRM data moves bronze → silver → gold into a star schema in SQL Server, with ETL procedures, quality checks and 13 analytics reports.
+
+**[DSA in Java](https://github.com/n3h4a/dsa-practise)**: 90 solutions sorted by the pattern behind them, not by problem number. Each states its approach and complexity, and CI compiles all of them on every push.
 
 ---
 
@@ -69,10 +71,7 @@ So far that's meant a medical-records app that reads lab reports without ever in
 
 ## 🛠️ on my workbench
 
-```text
-examgrid   ███████░░░  7 / 10 milestones   next → React console, live run views, CI/CD, load tests
-medfold    ██████████  v1.1.0 shipped      next → 2FA, doctor share links, FHIR export
-```
+<img src="assets/workbench-pipeline.svg" width="100%" alt="Build pipeline: ExamGrid 7 of 10 milestones done, React console in progress; Medfold v1.1.0 shipped, two-factor login, doctor share links and FHIR export queued">
 
 <details>
 <summary><b>🧠 things i'll happily whiteboard for an hour</b></summary>
@@ -139,5 +138,6 @@ medfold    ██████████  v1.1.0 shipped      next → 2FA, doc
   <a href="https://www.linkedin.com/in/nehakaramchandani/">LinkedIn</a> ·
   <a href="https://drive.google.com/file/d/1Wn0S8QGpAZx_U4xaSKsXx1PFyGHzvjZd/view?usp=drive_link">Resume</a> ·
   <a href="https://medium.com/@nehakaramchandanii">Medium</a> ·
-  <a href="mailto:nehakaramchandani2005@gmail.com">nehakaramchandani2005@gmail.com</a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nehakaramchandani2005@gmail.com">Email</a><br>
+  <sub>class of 2028 · open to data, backend &amp; SWE roles</sub>
 </p>

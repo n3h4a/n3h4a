@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="580" viewBox="0 0 410 580" role="img" aria-labelledby="t d">
+  <title id="t">SQL data warehouse medallion podium</title>
+  <desc id="d">Medallion architecture in SQL Server: bronze holds raw ERP and CRM CSVs as-is, silver is cleaned and standardised, gold is a star schema ready for analytics. ETL procedures, quality checks and 13 analytics reports.</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .lay  { font-size: 13px; font-weight: 800; letter-spacing: 2px; text-anchor: middle; }
+    .note { font-size: 11.5px; fill: #cfc8e6; text-anchor: middle; }
+    .num  { font-size: 44px; font-weight: 900; text-anchor: middle; opacity: 0.12; fill: #ffffff; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1a33"/><stop offset="1" stop-color="#100e1c"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0.5" cy="0" r="0.8">
+      <stop offset="0" stop-color="#ffd479" stop-opacity="0.28"/><stop offset="1" stop-color="#ffd479" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b3"/><stop offset="0.5" stop-color="#ffd479"/><stop offset="1" stop-color="#d49a1a"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.5" stop-color="#d9dde6"/><stop offset="1" stop-color="#8f99ad"/></linearGradient>
+    <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd2ad"/><stop offset="0.5" stop-color="#e6a06b"/><stop offset="1" stop-color="#a65f2c"/></linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="408" height="578" rx="16" fill="url(#bg)" stroke="#2a2540" stroke-width="2"/>
+  <path d="M205 0 L90 470 H320 Z" fill="url(#spot)"/>
+
+  <g class="sans">
+    <text x="205" y="48" text-anchor="middle" fill="#7ee8c7" font-size="13" font-weight="800" letter-spacing="2.5">SQL DATA WAREHOUSE</text>
+    <text x="205" y="72" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="800">Medallion architecture,</text>
+    <text x="205" y="96" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="800">taken literally.</text>
+    <text x="205" y="120" text-anchor="middle" fill="#8b84a8" font-size="12">data has to earn its medal: raw → clean → ready</text>
+
+    <!-- ribbons -->
+    <path d="M190 178 L176 140 H192 L205 168 Z" fill="#ff8fab"/><path d="M220 178 L234 140 H218 L205 168 Z" fill="#e0607f"/>
+    <path d="M70 248 L58 212 H72 L85 238 Z" fill="#a59cff"/><path d="M100 248 L112 212 H98 L85 238 Z" fill="#7d73e0"/>
+    <path d="M310 288 L298 252 H312 L325 278 Z" fill="#7ee8c7"/><path d="M340 288 L352 252 H338 L325 278 Z" fill="#4fbf9c"/>
+
+    <!-- medals -->
+    <g><circle cx="205" cy="200" r="30" fill="url(#gold)" stroke="#b07d10" stroke-width="2"/>
+      <text x="205" y="208" text-anchor="middle" fill="#7a5508" font-size="22" font-weight="900">G</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="3s" repeatCount="indefinite"/></g>
+    <g><circle cx="85" cy="268" r="26" fill="url(#silver)" stroke="#7d879b" stroke-width="2"/>
+      <text x="85" y="275" text-anchor="middle" fill="#4f5869" font-size="19" font-weight="900">S</text></g>
+    <g><circle cx="325" cy="308" r="26" fill="url(#bronze)" stroke="#8a4d22" stroke-width="2"/>
+      <text x="325" y="315" text-anchor="middle" fill="#6b3a17" font-size="19" font-weight="900">B</text></g>
+
+    <!-- podium -->
+    <rect x="145" y="246" width="120" height="270" rx="6" fill="#2a2540"/>
+    <rect x="145" y="246" width="120" height="6" rx="3" fill="#ffd479"/>
+    <rect x="25" y="310" width="118" height="206" rx="6" fill="#231f38"/>
+    <rect x="25" y="310" width="118" height="6" rx="3" fill="#d9dde6"/>
+    <rect x="267" y="350" width="118" height="166" rx="6" fill="#1f1b31"/>
+    <rect x="267" y="350" width="118" height="6" rx="3" fill="#e6a06b"/>
+
+    <text x="205" y="300" class="lay" fill="#ffd479">GOLD</text>
+    <text x="205" y="322" class="note">star schema</text>
+    <text x="205" y="339" class="note">facts + dims</text>
+    <text x="205" y="356" class="note">ready for BI</text>
+    <text x="205" y="470" class="num">1</text>
+
+    <text x="84" y="356" class="lay" fill="#d9dde6">SILVER</text>
+    <text x="84" y="378" class="note">cleaned,</text>
+    <text x="84" y="395" class="note">standardised,</text>
+    <text x="84" y="412" class="note">integrated</text>
+    <text x="84" y="490" class="num">2</text>
+
+    <text x="326" y="394" class="lay" fill="#e6a06b">BRONZE</text>
+    <text x="326" y="416" class="note">raw ERP + CRM</text>
+    <text x="326" y="433" class="note">CSVs, as-is</text>
+    <text x="326" y="500" class="num">3</text>
+
+    <line x1="25" y1="516" x2="385" y2="516" stroke="#3a3458" stroke-width="2"/>
+    <text x="205" y="546" text-anchor="middle" class="mono" fill="#a59cff" font-size="11.5">SQL Server · T-SQL ETL · quality checks</text>
+    <text x="205" y="564" text-anchor="middle" class="mono" fill="#6f6890" font-size="11">13 analytics reports · data catalog</text>
+  </g>
+</svg>
